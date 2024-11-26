@@ -1,0 +1,15 @@
+[project]
+name = "sorted_sets_benchmarks"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Nikolay Zelenev", email = "zelenev.working@gmail.com"},
+]
+dependencies = ["redis>=5.2.0", "names>=0.3.0"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
